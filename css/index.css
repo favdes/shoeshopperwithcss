@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(234, 12, 93);
+    position: relative;
+    /* overflow-x: hidden; */
+}
+h1{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    color: brown;
+    border: 15px solid black;
+    padding: 15% ;
+    border-radius: 10px;
+    font-size: 24px;
+    margin-top: 10%;
+    margin-left: 15%;
+    /* margin left: 50% */
+    position: absolute;
+    top: 0%; */
+    right: 0%;
+    bottom: 0%;
+   left: 0%;
+    /* position: center; */
+
+    
+    
+}
+p{
+    width: 150px;
+    height: 150px;
+    background-color: antiquewhite;
+    color: blueviolet;
+    padding: 15%;
+    margin: 10% 5% 20%;
+    box-shadow: 5px 6px 8px #0000;
+    border-radius: 50%;
+
+}
+.box{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.box img{
+    width: 200px;
+    height: 200%;
+
+}
+.box img:hover{
+    /* border:2px dotted #fff; */
+    cursor:pointer;
+    opacity: 0.7;
+
+    
+}
